@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Sidebar } from './components/Sidebar';
 import { Header } from './components/Header';
 import { Dashboard } from './pages/Dashboard';
+import { Analytics } from './pages/Analytics';
 import { PlaceholderPage } from './pages/PlaceholderPage';
 import { cn } from './lib/utils';
 
@@ -14,12 +15,7 @@ function App() {
       case 'dashboard':
         return <Dashboard />;
       case 'analytics':
-        return (
-          <PlaceholderPage
-            title="Analytics"
-            description="Detailed analytics and insights about your business performance."
-          />
-        );
+        return <Analytics />;
       case 'users':
         return (
           <PlaceholderPage

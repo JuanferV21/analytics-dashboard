@@ -131,3 +131,92 @@ export const trafficSources = [
   { source: 'Referral', visitors: 2341, percentage: 8 },
   { source: 'Email', visitors: 891, percentage: 3 },
 ];
+
+// === ANALYTICS DATA ===
+
+// Métricas de Analytics
+export const analyticsMetrics = [
+  {
+    id: 1,
+    title: 'Bounce Rate',
+    value: '42.3%',
+    change: '-5.2%',
+    trend: 'up',
+    icon: 'trending',
+  },
+  {
+    id: 2,
+    title: 'Avg. Session Duration',
+    value: '3m 24s',
+    change: '+12.4%',
+    trend: 'up',
+    icon: 'timer',
+  },
+  {
+    id: 3,
+    title: 'Pages per Session',
+    value: '4.8',
+    change: '+8.1%',
+    trend: 'up',
+    icon: 'file',
+  },
+  {
+    id: 4,
+    title: 'Goal Completions',
+    value: '1,234',
+    change: '+18.7%',
+    trend: 'up',
+    icon: 'target',
+  },
+];
+
+// Tráfico por fuente en el tiempo (para gráfica de área)
+export const trafficOverTime = [
+  { month: 'Jan', organic: 8500, direct: 6200, social: 3800, referral: 1500, email: 600 },
+  { month: 'Feb', organic: 9200, direct: 6800, social: 4200, referral: 1800, email: 700 },
+  { month: 'Mar', organic: 10100, direct: 7200, social: 4800, referral: 2000, email: 750 },
+  { month: 'Apr', organic: 10800, direct: 7500, social: 5100, referral: 2100, email: 800 },
+  { month: 'May', organic: 11500, direct: 7800, social: 5400, referral: 2200, email: 850 },
+  { month: 'Jun', organic: 12543, direct: 8234, social: 5621, referral: 2341, email: 891 },
+];
+
+// Top páginas más visitadas
+export const topPages = [
+  { page: '/dashboard', views: 45234, uniqueVisitors: 32145, avgTime: '4:32', bounceRate: '32%' },
+  { page: '/products', views: 38921, uniqueVisitors: 28456, avgTime: '3:45', bounceRate: '38%' },
+  { page: '/analytics', views: 32456, uniqueVisitors: 24123, avgTime: '5:12', bounceRate: '28%' },
+  { page: '/settings', views: 28734, uniqueVisitors: 21098, avgTime: '2:56', bounceRate: '45%' },
+  { page: '/users', views: 24567, uniqueVisitors: 18234, avgTime: '3:22', bounceRate: '35%' },
+  { page: '/reports', views: 21345, uniqueVisitors: 16543, avgTime: '4:18', bounceRate: '30%' },
+];
+
+// Dispositivos y navegadores
+export const deviceStats = [
+  { device: 'Desktop', users: 18543, percentage: 62, sessions: 34234, bounceRate: '38%' },
+  { device: 'Mobile', users: 9234, percentage: 31, sessions: 18234, bounceRate: '45%' },
+  { device: 'Tablet', users: 2123, percentage: 7, sessions: 4123, bounceRate: '42%' },
+];
+
+export const browserStats = [
+  { browser: 'Chrome', users: 15234, percentage: 51 },
+  { browser: 'Safari', users: 8234, percentage: 28 },
+  { browser: 'Firefox', users: 3456, percentage: 12 },
+  { browser: 'Edge', users: 2123, percentage: 7 },
+  { browser: 'Others', users: 853, percentage: 2 },
+];
+
+// Actividad por hora del día
+export const hourlyActivity = [
+  { hour: '00:00', visitors: 245 },
+  { hour: '02:00', visitors: 189 },
+  { hour: '04:00', visitors: 156 },
+  { hour: '06:00', visitors: 312 },
+  { hour: '08:00', visitors: 845 },
+  { hour: '10:00', visitors: 1234 },
+  { hour: '12:00', visitors: 1567 },
+  { hour: '14:00', visitors: 1423 },
+  { hour: '16:00', visitors: 1678 },
+  { hour: '18:00', visitors: 1345 },
+  { hour: '20:00', visitors: 1123 },
+  { hour: '22:00', visitors: 678 },
+];

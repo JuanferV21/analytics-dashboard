@@ -1,4 +1,4 @@
-import { TrendingUp, TrendingDown, DollarSign, Users, Package } from 'lucide-react';
+import { TrendingUp, TrendingDown, DollarSign, Users, Package, Timer, FileText, Target } from 'lucide-react';
 import { Card, CardContent } from './ui/Card';
 import { cn } from '../lib/utils';
 import { motion } from 'framer-motion';
@@ -8,6 +8,9 @@ const iconMap = {
   users: Users,
   trending: TrendingUp,
   package: Package,
+  timer: Timer,
+  file: FileText,
+  target: Target,
 };
 
 export function MetricCard({ title, value, change, trend, icon, index }) {
