@@ -4,7 +4,9 @@ import { Header } from './components/Header';
 import { Dashboard } from './pages/Dashboard';
 import { Analytics } from './pages/Analytics';
 import { Users } from './pages/Users';
-import { PlaceholderPage } from './pages/PlaceholderPage';
+import { Reports } from './pages/Reports';
+import { Products } from './pages/Products';
+import { Settings } from './pages/Settings';
 import { cn } from './lib/utils';
 
 function App() {
@@ -20,26 +22,11 @@ function App() {
       case 'users':
         return <Users />;
       case 'reports':
-        return (
-          <PlaceholderPage
-            title="Reports"
-            description="Generate and download comprehensive business reports."
-          />
-        );
+        return <Reports />;
       case 'products':
-        return (
-          <PlaceholderPage
-            title="Products"
-            description="Manage your product catalog and inventory."
-          />
-        );
+        return <Products />;
       case 'settings':
-        return (
-          <PlaceholderPage
-            title="Settings"
-            description="Configure your application preferences and account settings."
-          />
-        );
+        return <Settings />;
       default:
         return <Dashboard />;
     }

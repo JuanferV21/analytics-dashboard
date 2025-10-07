@@ -412,3 +412,331 @@ export const usersTableData = [
     avatar: 'AD',
   },
 ];
+
+// === REPORTS DATA ===
+
+// Métricas de reportes
+export const reportsMetrics = [
+  {
+    id: 1,
+    title: 'Total Reports',
+    value: '2,456',
+    change: '+18.2%',
+    trend: 'up',
+    icon: 'fileText',
+  },
+  {
+    id: 2,
+    title: 'Scheduled Reports',
+    value: '34',
+    change: '+5.0%',
+    trend: 'up',
+    icon: 'clock',
+  },
+  {
+    id: 3,
+    title: 'Downloads',
+    value: '8,921',
+    change: '+24.6%',
+    trend: 'up',
+    icon: 'download',
+  },
+  {
+    id: 4,
+    title: 'Data Coverage',
+    value: '98.5%',
+    change: '+1.2%',
+    trend: 'up',
+    icon: 'database',
+  },
+];
+
+// Reportes generados en el tiempo
+export const reportsOverTime = [
+  { month: 'Jan', generated: 320, downloaded: 285 },
+  { month: 'Feb', generated: 380, downloaded: 340 },
+  { month: 'Mar', generated: 420, downloaded: 395 },
+  { month: 'Apr', generated: 390, downloaded: 360 },
+  { month: 'May', generated: 450, downloaded: 425 },
+  { month: 'Jun', generated: 496, downloaded: 470 },
+];
+
+// Reportes por categoría
+export const reportsByCategory = [
+  { category: 'Sales', count: 856, percentage: 35 },
+  { category: 'Analytics', count: 614, percentage: 25 },
+  { category: 'Users', count: 491, percentage: 20 },
+  { category: 'Finance', count: 368, percentage: 15 },
+  { category: 'Inventory', count: 127, percentage: 5 },
+];
+
+// Reportes recientes
+export const recentReports = [
+  {
+    id: 1,
+    name: 'Q2 Sales Performance',
+    type: 'Sales',
+    generatedDate: '2024-06-28',
+    status: 'ready',
+    size: '2.4 MB',
+    format: 'PDF',
+  },
+  {
+    id: 2,
+    name: 'User Acquisition Report',
+    type: 'Users',
+    generatedDate: '2024-06-27',
+    status: 'ready',
+    size: '1.8 MB',
+    format: 'XLSX',
+  },
+  {
+    id: 3,
+    name: 'Monthly Analytics Summary',
+    type: 'Analytics',
+    generatedDate: '2024-06-26',
+    status: 'processing',
+    size: '-',
+    format: 'PDF',
+  },
+  {
+    id: 4,
+    name: 'Inventory Stock Report',
+    type: 'Inventory',
+    generatedDate: '2024-06-25',
+    status: 'ready',
+    size: '956 KB',
+    format: 'CSV',
+  },
+  {
+    id: 5,
+    name: 'Financial Overview Q2',
+    type: 'Finance',
+    generatedDate: '2024-06-24',
+    status: 'scheduled',
+    size: '-',
+    format: 'PDF',
+  },
+  {
+    id: 6,
+    name: 'Customer Behavior Analysis',
+    type: 'Analytics',
+    generatedDate: '2024-06-23',
+    status: 'ready',
+    size: '3.1 MB',
+    format: 'PDF',
+  },
+];
+
+// === PRODUCTS DATA ===
+
+// Métricas de productos
+export const productsMetrics = [
+  {
+    id: 1,
+    title: 'Total Products',
+    value: '1,245',
+    change: '+8.3%',
+    trend: 'up',
+    icon: 'box',
+  },
+  {
+    id: 2,
+    title: 'In Stock',
+    value: '1,089',
+    change: '+5.2%',
+    trend: 'up',
+    icon: 'package',
+  },
+  {
+    id: 3,
+    title: 'Low Stock',
+    value: '87',
+    change: '+12.0%',
+    trend: 'down',
+    icon: 'alertTriangle',
+  },
+  {
+    id: 4,
+    title: 'Categories',
+    value: '24',
+    change: '+2.0%',
+    trend: 'up',
+    icon: 'grid',
+  },
+];
+
+// Top productos más vendidos
+export const topProducts = [
+  { product: 'Wireless Headphones', sales: 1234, revenue: 98720 },
+  { product: 'Smart Watch Pro', sales: 1089, revenue: 326700 },
+  { product: 'Laptop Stand', sales: 967, revenue: 48350 },
+  { product: 'USB-C Hub', sales: 845, revenue: 42250 },
+  { product: 'Mechanical Keyboard', sales: 723, revenue: 108450 },
+  { product: 'Webcam HD', sales: 689, revenue: 55120 },
+  { product: 'Monitor 27"', sales: 645, revenue: 193500 },
+  { product: 'Desk Mat XL', sales: 578, revenue: 17340 },
+];
+
+// Inventario en el tiempo
+export const inventoryOverTime = [
+  { month: 'Jan', total: 1156, inStock: 1020, lowStock: 136 },
+  { month: 'Feb', total: 1178, inStock: 1045, lowStock: 133 },
+  { month: 'Mar', total: 1195, inStock: 1068, lowStock: 127 },
+  { month: 'Apr', total: 1210, inStock: 1075, lowStock: 135 },
+  { month: 'May', total: 1228, inStock: 1082, lowStock: 146 },
+  { month: 'Jun', total: 1245, inStock: 1089, lowStock: 156 },
+];
+
+// Productos por categoría
+export const productsByCategory = [
+  { name: 'Electronics', value: 425, percentage: 34 },
+  { name: 'Accessories', value: 324, percentage: 26 },
+  { name: 'Computers', value: 249, percentage: 20 },
+  { name: 'Audio', value: 174, percentage: 14 },
+  { name: 'Others', value: 73, percentage: 6 },
+];
+
+// Tabla de productos
+export const productsTableData = [
+  {
+    id: 1,
+    name: 'Wireless Headphones Pro',
+    sku: 'WHP-2024-001',
+    category: 'Audio',
+    price: '$79.99',
+    stock: 145,
+    status: 'in-stock',
+    sales: 1234,
+  },
+  {
+    id: 2,
+    name: 'Smart Watch Series 5',
+    sku: 'SWS-2024-002',
+    category: 'Electronics',
+    price: '$299.99',
+    stock: 67,
+    status: 'in-stock',
+    sales: 1089,
+  },
+  {
+    id: 3,
+    name: 'Ergonomic Laptop Stand',
+    sku: 'ELS-2024-003',
+    category: 'Accessories',
+    price: '$49.99',
+    stock: 223,
+    status: 'in-stock',
+    sales: 967,
+  },
+  {
+    id: 4,
+    name: 'USB-C Multi-Port Hub',
+    sku: 'UCH-2024-004',
+    category: 'Accessories',
+    price: '$39.99',
+    stock: 8,
+    status: 'low-stock',
+    sales: 845,
+  },
+  {
+    id: 5,
+    name: 'Mechanical Gaming Keyboard',
+    sku: 'MGK-2024-005',
+    category: 'Computers',
+    price: '$149.99',
+    stock: 0,
+    status: 'out-of-stock',
+    sales: 723,
+  },
+  {
+    id: 6,
+    name: '1080p HD Webcam',
+    sku: 'HDW-2024-006',
+    category: 'Electronics',
+    price: '$79.99',
+    stock: 156,
+    status: 'in-stock',
+    sales: 689,
+  },
+  {
+    id: 7,
+    name: '27" 4K Monitor',
+    sku: '4KM-2024-007',
+    category: 'Computers',
+    price: '$299.99',
+    stock: 34,
+    status: 'in-stock',
+    sales: 645,
+  },
+  {
+    id: 8,
+    name: 'Extended Desk Mat',
+    sku: 'EDM-2024-008',
+    category: 'Accessories',
+    price: '$29.99',
+    stock: 12,
+    status: 'low-stock',
+    sales: 578,
+  },
+  {
+    id: 9,
+    name: 'Bluetooth Speaker Mini',
+    sku: 'BSM-2024-009',
+    category: 'Audio',
+    price: '$59.99',
+    stock: 189,
+    status: 'in-stock',
+    sales: 534,
+  },
+  {
+    id: 10,
+    name: 'Wireless Mouse Pro',
+    sku: 'WMP-2024-010',
+    category: 'Computers',
+    price: '$49.99',
+    stock: 267,
+    status: 'in-stock',
+    sales: 512,
+  },
+];
+
+// === SETTINGS DATA ===
+
+// User profile settings
+export const userProfile = {
+  name: 'John Anderson',
+  email: 'john.anderson@example.com',
+  role: 'Admin',
+  avatar: 'JA',
+  bio: 'Product Manager passionate about data-driven decisions and building amazing user experiences.',
+};
+
+// Notification settings
+export const notificationSettings = {
+  email: {
+    marketing: true,
+    productUpdates: true,
+    weeklyReports: false,
+    securityAlerts: true,
+  },
+  push: {
+    desktop: true,
+    sound: false,
+    badge: true,
+  },
+};
+
+// Privacy settings
+export const privacySettings = {
+  profileVisibility: 'public',
+  showOnlineStatus: true,
+  dataSharing: false,
+};
+
+// Security settings
+export const securitySettings = {
+  twoFactorAuth: false,
+  loginAlerts: true,
+  sessionTimeout: '30min',
+};

@@ -1,4 +1,4 @@
-import { TrendingUp, TrendingDown, DollarSign, Users, Package, Timer, FileText, Target, UserPlus, UserCheck } from 'lucide-react';
+import { TrendingUp, TrendingDown, DollarSign, Users, Package, Timer, FileText, Target, UserPlus, UserCheck, Clock, Download, Database, Box, AlertTriangle, Grid } from 'lucide-react';
 import { Card, CardContent } from './ui/Card';
 import { cn } from '../lib/utils';
 import { motion } from 'framer-motion';
@@ -13,6 +13,13 @@ const iconMap = {
   target: Target,
   userPlus: UserPlus,
   userCheck: UserCheck,
+  fileText: FileText,
+  clock: Clock,
+  download: Download,
+  database: Database,
+  box: Box,
+  alertTriangle: AlertTriangle,
+  grid: Grid,
 };
 
 export function MetricCard({ title, value, change, trend, icon, index }) {
