@@ -220,3 +220,195 @@ export const hourlyActivity = [
   { hour: '20:00', visitors: 1123 },
   { hour: '22:00', visitors: 678 },
 ];
+
+// === USERS DATA ===
+
+// Métricas de usuarios
+export const usersMetrics = [
+  {
+    id: 1,
+    title: 'Total Users',
+    value: '29,845',
+    change: '+12.5%',
+    trend: 'up',
+    icon: 'users',
+  },
+  {
+    id: 2,
+    title: 'New Users',
+    value: '2,543',
+    change: '+8.2%',
+    trend: 'up',
+    icon: 'userPlus',
+  },
+  {
+    id: 3,
+    title: 'Active Users (24h)',
+    value: '8,234',
+    change: '+5.7%',
+    trend: 'up',
+    icon: 'userCheck',
+  },
+  {
+    id: 4,
+    title: 'Retention Rate',
+    value: '78.3%',
+    change: '+3.1%',
+    trend: 'up',
+    icon: 'trending',
+  },
+];
+
+// Crecimiento de usuarios en el tiempo
+export const userGrowthData = [
+  { month: 'Jan', total: 18500, new: 1200, returning: 17300 },
+  { month: 'Feb', total: 20100, new: 1600, returning: 18500 },
+  { month: 'Mar', total: 22300, new: 2200, returning: 20100 },
+  { month: 'Apr', total: 24800, new: 2500, returning: 22300 },
+  { month: 'May', total: 27200, new: 2400, returning: 24800 },
+  { month: 'Jun', total: 29845, new: 2645, returning: 27200 },
+];
+
+// Usuarios por país
+export const usersByCountry = [
+  { country: 'United States', users: 8234, percentage: 28 },
+  { country: 'United Kingdom', users: 5621, percentage: 19 },
+  { country: 'Canada', users: 4123, percentage: 14 },
+  { country: 'Germany', users: 3456, percentage: 12 },
+  { country: 'France', users: 2987, percentage: 10 },
+  { country: 'Australia', users: 2341, percentage: 8 },
+  { country: 'Spain', users: 1567, percentage: 5 },
+  { country: 'Italy', users: 1234, percentage: 4 },
+];
+
+// Distribución por roles
+export const usersByRole = [
+  { name: 'User', value: 22345, percentage: 75 },
+  { name: 'Premium', value: 4478, percentage: 15 },
+  { name: 'Admin', value: 1492, percentage: 5 },
+  { name: 'Guest', value: 1530, percentage: 5 },
+];
+
+// Tabla de usuarios
+export const usersTableData = [
+  {
+    id: 1,
+    name: 'John Anderson',
+    email: 'john.anderson@example.com',
+    role: 'admin',
+    status: 'active',
+    joinDate: '2023-01-15',
+    lastActive: '2 hours ago',
+    avatar: 'JA',
+  },
+  {
+    id: 2,
+    name: 'Sarah Mitchell',
+    email: 'sarah.mitchell@example.com',
+    role: 'premium',
+    status: 'active',
+    joinDate: '2023-02-20',
+    lastActive: '1 day ago',
+    avatar: 'SM',
+  },
+  {
+    id: 3,
+    name: 'Michael Chen',
+    email: 'michael.chen@example.com',
+    role: 'user',
+    status: 'active',
+    joinDate: '2023-03-10',
+    lastActive: '5 minutes ago',
+    avatar: 'MC',
+  },
+  {
+    id: 4,
+    name: 'Emily Rodriguez',
+    email: 'emily.rodriguez@example.com',
+    role: 'premium',
+    status: 'active',
+    joinDate: '2023-04-05',
+    lastActive: '3 hours ago',
+    avatar: 'ER',
+  },
+  {
+    id: 5,
+    name: 'David Thompson',
+    email: 'david.thompson@example.com',
+    role: 'user',
+    status: 'inactive',
+    joinDate: '2023-05-12',
+    lastActive: '2 weeks ago',
+    avatar: 'DT',
+  },
+  {
+    id: 6,
+    name: 'Lisa Wang',
+    email: 'lisa.wang@example.com',
+    role: 'admin',
+    status: 'active',
+    joinDate: '2023-01-08',
+    lastActive: '30 minutes ago',
+    avatar: 'LW',
+  },
+  {
+    id: 7,
+    name: 'James Wilson',
+    email: 'james.wilson@example.com',
+    role: 'user',
+    status: 'active',
+    joinDate: '2023-06-22',
+    lastActive: '1 hour ago',
+    avatar: 'JW',
+  },
+  {
+    id: 8,
+    name: 'Maria Garcia',
+    email: 'maria.garcia@example.com',
+    role: 'premium',
+    status: 'active',
+    joinDate: '2023-07-15',
+    lastActive: '4 hours ago',
+    avatar: 'MG',
+  },
+  {
+    id: 9,
+    name: 'Robert Taylor',
+    email: 'robert.taylor@example.com',
+    role: 'user',
+    status: 'inactive',
+    joinDate: '2023-08-30',
+    lastActive: '1 month ago',
+    avatar: 'RT',
+  },
+  {
+    id: 10,
+    name: 'Jennifer Lee',
+    email: 'jennifer.lee@example.com',
+    role: 'guest',
+    status: 'active',
+    joinDate: '2024-01-10',
+    lastActive: '10 minutes ago',
+    avatar: 'JL',
+  },
+  {
+    id: 11,
+    name: 'Christopher Brown',
+    email: 'chris.brown@example.com',
+    role: 'premium',
+    status: 'active',
+    joinDate: '2023-09-05',
+    lastActive: '6 hours ago',
+    avatar: 'CB',
+  },
+  {
+    id: 12,
+    name: 'Amanda Davis',
+    email: 'amanda.davis@example.com',
+    role: 'user',
+    status: 'active',
+    joinDate: '2023-10-18',
+    lastActive: '2 days ago',
+    avatar: 'AD',
+  },
+];

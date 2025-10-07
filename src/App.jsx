@@ -3,6 +3,7 @@ import { Sidebar } from './components/Sidebar';
 import { Header } from './components/Header';
 import { Dashboard } from './pages/Dashboard';
 import { Analytics } from './pages/Analytics';
+import { Users } from './pages/Users';
 import { PlaceholderPage } from './pages/PlaceholderPage';
 import { cn } from './lib/utils';
 
@@ -17,12 +18,7 @@ function App() {
       case 'analytics':
         return <Analytics />;
       case 'users':
-        return (
-          <PlaceholderPage
-            title="Users"
-            description="Manage and view detailed information about your users."
-          />
-        );
+        return <Users />;
       case 'reports':
         return (
           <PlaceholderPage
